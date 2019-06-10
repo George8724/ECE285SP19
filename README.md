@@ -44,7 +44,8 @@ In this project, we performed 3 different models. In the following instructions 
 
 ### 1.Run 'demo.ipynb'
 First, download our trained models from the link below:
-
+ssd:https://drive.google.com/file/d/1sChpTiWNYI9M0cT5WXNoZdLL30rkzg2r/view?usp=sharing <br>
+faster-cnn:https://drive.google.com/file/d/12O7B-ZDwYd5OiW7BTnfD6hDp1jQIEqZg/view?usp=sharing <br>
 Then run 'demo.ipynb'.
 ### 2.Download VOC2012
 Download the VOC2012 image set then put all the files into WORKSPACE/object_detection/voc/VOCdevkit.
