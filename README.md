@@ -1,7 +1,7 @@
 # Multi-Object detection using DeepLearning
 
 ## Description
-This is project C, training a multi-object detection classifier using tensorflow API on Windows 10.
+This is project C, training a multi-object detection classifier using TensorFlow API on Windows 10.
 
 ## Requirements
 Install package 'tensorflow' as follow:
