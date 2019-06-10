@@ -4,6 +4,9 @@
 This is project C, training an object detection classifier using tensorflow API on Windows 10.
 
 ## Requirements
+To run the demo.ipynb, you need download the trained model first.
+Faster-cnn:https://drive.google.com/file/d/12O7B-ZDwYd5OiW7BTnfD6hDp1jQIEqZg/view?usp=sharing
+SSD: https://drive.google.com/file/d/1sChpTiWNYI9M0cT5WXNoZdLL30rkzg2r/view?usp=sharing
 Install package 'tensorflow' as follow:
 ```
 $ pip install tensorflow
