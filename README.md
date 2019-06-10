@@ -1,6 +1,6 @@
 # Multi-Object detection using DeepLearning
 
-Description
+## Description
 ===========
 This is project FOO developed by team BAR composed of John Doe, ...
 Requirements
