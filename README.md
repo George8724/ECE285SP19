@@ -3,11 +3,11 @@
 ## Description
 ===========
 This is project FOO developed by team BAR composed of John Doe, ...
-Requirements
+## Requirements
 ============
 Install package 'imageio' as follow:
 $ pip install --user imageio
-Code organization
+## Code organization
 =================
 demo.ipynb -- Run a demo of our code (reproduces Figure 3 of our report)
 train.ipynb -- Run the training of our model (as described in Section 2)
