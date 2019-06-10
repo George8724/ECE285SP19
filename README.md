@@ -4,9 +4,6 @@
 This is project C, training an object detection classifier using tensorflow API on Windows 10.
 
 ## Requirements
-To run the demo.ipynb, you need download the trained model first.
-Faster-cnn:https://drive.google.com/file/d/12O7B-ZDwYd5OiW7BTnfD6hDp1jQIEqZg/view?usp=sharing
-SSD: https://drive.google.com/file/d/1sChpTiWNYI9M0cT5WXNoZdLL30rkzg2r/view?usp=sharing
 Install package 'tensorflow' as follow:
 ```
 $ pip install tensorflow
@@ -45,9 +42,13 @@ Here is an example:
 
 In this project, we performed 3 different models. In the following instructions we will use ssd as example.
 
-### 1.Download VOC2012
+### 1.Run 'demo.ipynb'
+First, download our trained models from the link below:
 
-### 2.Transform data and generate train/test sets
+Then run 'demo.ipynb'.
+### 2.Download VOC2012
+
+### 3.Transform data and generate train/test sets
 
 Run 'create_pascal_tfrecord.py' as follow:
 ```
@@ -65,7 +66,7 @@ $ python object_detection/create_pascal_tf_record.py
 --output_path=object_detection/voc/pascal_val.record
 ```
 
-### 3.Download pretrained models
+### 4.Download pretrained models
 Go to the links below:
 http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_resnet_v2_atrous_coco_11_06_2017.tar.gz
 http://download.tensorflow.org/models/object_detection/ssd_inception_v2_coco_11_06_2017.tar.gz
@@ -81,7 +82,7 @@ For example,
 >>>model.ckpt.index<br>
 >>>model.ckpt.meta
 
-### 4.Train the models
+### 5.Train the models
 Run 'train.py' as follow:
 ```
 $ python object_detection/train.py 
@@ -89,7 +90,7 @@ $ python object_detection/train.py
 --pipeline_config_path=object_detection/voc/config/ssd.config 
 ```
 
-### 5.Evaluate the results
+### 6.Evaluate the results
 Run 'eval.py' as follow:
 ```
 $ python object_detection/eval.py 
@@ -97,3 +98,4 @@ $ python object_detection/eval.py
 --checkpoint_dir=object_detection/voc/train_dir/ssd/ --eval_dir=object_detection/voc/eval/ssd/
 --pipeline_config_path=object_detection/voc/config/ssd.config
 ```
+
