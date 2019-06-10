@@ -47,6 +47,7 @@ First, download our trained models from the link below:
 
 Then run 'demo.ipynb'.
 ### 2.Download VOC2012
+Download the VOC2012 image set then put all the files into WORKSPACE/object_detection/voc/VOCdevkit.
 
 ### 3.Transform data and generate train/test sets
 
